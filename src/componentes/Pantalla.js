@@ -1,7 +1,10 @@
 import React from "react";
+import '../styles/Pantalla.css';
 
-function Pantalla(){
-
-}
+const Pantalla=({input})=>(
+    <div className="input" >
+        {input}
+    </div>
+);
 
 export default Pantalla;
